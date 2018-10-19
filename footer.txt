@@ -1,1 +1,1 @@
-document.write('<center><img src="" align="middle"><br><h2><font>Please report any issues to Webmaster. | <a href="mailto:pbanaszek@nassaucountyny.gov">Email Webmaster</a> | <a href="help.html">Help</a> | <a href="admindash352167.html">Admin Login</a></font></h2></center>')
+document.write('<center><img src="" align="middle"><br><h2><font>Please report any issues to Webmaster. | <a href="mailto:pbanaszek@nassaucountyny.gov">Contact Webmaster</a> | <a href="admindash352167.html">Admin</a> | <a href="help.html">Help</a></font></h2></center>')
