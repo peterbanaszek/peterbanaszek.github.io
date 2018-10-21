@@ -1,0 +1,2 @@
+
+document.write('<a href="../../dashboard.html">Dashboard</a><a href="dailylog.html">Daily Log</a><a href="incidents.html">Incidents</a><a href="laneclosures.html">Lane Closures</a><a href="equipment.html">Equipment</a><a href="contacts.html">Contacts</a><a href="personnel.html">Personnel</a><a href="maps.html">Maps</a><a href="help.html" style="float:right">Help</a><a href="http://10.2.1.12/phpipam/?page=login" target="_blank" style="float:right">IPAM</a><a href="openticket.html" style="float:right">Open IT Ticket</a>')
