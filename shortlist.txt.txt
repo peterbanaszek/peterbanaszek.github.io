@@ -1,0 +1,12 @@
+***************************************
+*          Short List                 *
+*        Minor Additions              *
+***************************************
+
+1. VMS Status Page: Create a VMS module that displays VMS status, voltage, latency. 
+
+2. Drop-down search filter: Include a search bar on the dashboard that can search for either incidents, lane closures, equipment, date, contacts or personnel.
+
+3. Jscript Pop-ups: Develop a basic jscript pop-up window to integrate with SQL tables.
+
+4. Open Incident Count: Upper right corner should show incident icon and the number of open incidents in the database.                                               
