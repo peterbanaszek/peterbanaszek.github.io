@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <!-- Cuurent default header -->
 <head>
 <title>Nassau County TMC Application</title>
@@ -10,6 +11,7 @@
 <!--[if lt IE 9]>
    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
 <![endif]-->
+
 </head>
 
 <!-- Start page body -->
@@ -25,8 +27,18 @@
  <script language="javascript" type="text/javascript" src="dashnav.txt"></script>
 </div>
 
+<!-- Future support for bulletin board data entry -->
+  <div class="card">Post Bulletin
+<script language="JavaScript">
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("user_input").value;
+    }
+  </script>
+  </div>
+  
 <!-- Contains all elements of the left dashboard column -->
-<div class ="row">
+<div class ="row"> 
   <div class="leftcolumn">
     <div class="card">
       <h2>Reminder: Time Sheets!</h2>
