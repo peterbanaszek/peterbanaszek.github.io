@@ -171,5 +171,11 @@ height:auto;
 	height: auto;
 }
 
+/* Text formatting for the help page categories */
+.guidepost {
+	text-decoration: underline;
+	font-weight: bold;	
+}
+
 /* Create an external administration page using PHP to use HTTPS/SSL to secure the login page to add reminders to the main dashboard. */
 

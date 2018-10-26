@@ -3,7 +3,7 @@
 *        Minor Additions              *
 ***************************************
 
-1. VMS Status Page: Create a VMS module that displays VMS status, voltage, latency. 
+1. VMS Status Page: Create a VMS module that displays VMS status: voltage, latency, temperature. 
 
 2. Drop-down search filter: Include a search bar on the dashboard that can search for either incidents, lane closures, equipment, date, contacts or personnel.
 
