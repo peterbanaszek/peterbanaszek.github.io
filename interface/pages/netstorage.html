@@ -23,10 +23,19 @@
   src="topnav.txt"></script>
 </div>
 
-<!-- Contains all elements of a single column table -->s
+<!-- Contains all elements of a single column table -->
 <div class="row">
   <div class="leftcolumnwide">
     <div class="card">
+
+<!-- Back button and history back method -->
+	<button onclick="goBack()">Go Back</button>
+		<script>
+			function goBack() {
+			window.history.back();
+			}
+		</script>
+		
       <h2>Info: Network Storage</h2>
 	  <embed src="../pdf/netstorage.pdf" width="100%" height="1000px" />
     </div>
