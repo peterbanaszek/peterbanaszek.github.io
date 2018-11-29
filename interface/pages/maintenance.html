@@ -23,12 +23,16 @@
   src="topnav.txt"></script>
 </div>
 
-<!-- Contains all elements of a single column table -->
-<div class="row">
-  <div class="leftcolumnwide">
-    <div class="card">
+ 
+
 	
-<!-- Back button and history back method -->
+
+<!-- Contains all elements of the left dashboard column -->
+<div class ="row">
+  <div class="leftcolumn">
+  
+  <!-- Back button with history back method and maintenance-->
+	<div class="card">
 	<button onclick="goBack()">Go Back</button>
 		<script>
 			function goBack() {
@@ -36,50 +40,69 @@
 			}
 		</script>
 		
-  <h2>Welcome to the Monthly Maintenance Page!</h2>
-  <img src="../images/misc/maintenance.png" class="image1">	
-	
-<!-- Insert maintenance summaries here -->
-	  <h3>Monthly Maintenance includes the following:</h3>
-	  <p>&bull; Running back up AC for a total of 8 hours.
-	  <br>&bull; Drain TMC Radios
-	  <br>&bull; Vacuum the day of maintenance and as needed for an entire month.
-	  <br>&bull; Wipe down all surfaces including: Monitors, desks, printers, etc. 
-	  <br>&bull; Check the pan/tilt/zoom functions on all the cameras. 
-	  <br>&bull; Assist Pete with testing phone lines.</p>
+  <h1>Welcome to the Maintenance Page</h1>
+  <img src="../images/misc/maintenance.png" class="image2">	
+	</div>
 
-<!-- Insert maintenance details here -->
-	  <h3>Enhanced Maintenance Details</h3>
-	  
 <!-- A/C Maintenance Details -->
-	  <span class="guidepost">A/C Backup</span>
-	  <p>The backup A/C serves a vital role in the TMC. In a situation where the main Enviromux A/C fails, the backup unit will engage to prevent the server racks from overheating. This regular testing verifies that the backup A/C is functioning properly. The description below will cover all the necessary steps involved with carrying out the monthly maintenance.</p>
+	<div class="card">	
+      <span class="guidepost">A/C Backup Steps</span>
+
+	  <p>The backup A/C serves a vital role in the TMC. In a situation where the main Enviromux A/C fails, the backup unit will engage to prevent the server racks from overheating. This regular testing verifies that the backup A/C is functioning properly. The description below will cover all the necessary steps involved with carrying out the monthly maintenance.</>
 	  
-      <br>1. Locate the A/C control panel in the server room
-      <br>2. Press the button to switch the fan from AUTO to ON 
-	  <br>3. Lower the temperature from 72° to 68°
+      <h4>1. Locate the A/C control panel in the server room</h4>
+      <h4>2. Press the button to switch the fan from AUTO to ON</h4>
+	  <h4>3. Lower the temperature from 72° to 68°</h4>
 
 	  <p>This will cause the backup A/C to come on and the Liebert A/C will automatically shut down, which should also happen if the main A/C ever fails. As a result an alarm will go off notifying the TMC personnel that the backup A/C has come on. It is up to the operator on duty to clear the alarm off the overhead view screen. As a general practice, TMC personnel should let the backup A/C run for an entire shift or at least 8 hours. After the testing is complete, the backup A/C should be turned off and the main A/C should be restored. The steps involved are as follows.</p>
 
-	  <br>1. Locate the A/C control panel in the server room<
-      <br>2. Press the button to switch the fan from ON to AUTO 
-	  <br>3. Increase the temperature from 68° to 72° 
-	  <br>4. Enter 10.2.1.53 in Internet Explorer to login to the A/C GUI
-      <br>5. Username: root Password: admin 
-	  <br>6. Locate the Summary tab 
-	  <br>7. Look for and click on Liebert On/Off 
-	  <br>8. Set Output to Close and then hit Apply
+	  <h4>1. Locate the A/C control panel in the server room</h4>
+      <h4>2. Press the button to switch the fan from ON to AUTO</h4>
+	  <h4>3. Increase the temperature from 68° to 72°</h4> 
+	  <h4>4. Enter 10.2.1.53 in Internet Explorer to login to the Enviromux</h4> 
+      <h4>5. Username: root Password: admin</h4>  
+	  <h4>6. Locate the Summary tab</h4> 
+	  <h4>7. Look for Liebert On/Off which should be red and set to open</h4>  
+	  <h4>8. Wait for main A/C to turn on and look for alarm to clear out</h4> 
+	  <h4>9. If the Liebert strobe is still on after the main A/C comes back on you must acknowledge the alarm within the Enviromux</h4>
 
 	  <p>That will conclude all steps involved with A/C backup testing.</p>
-
-<!-- Radio Maintenance Details -->	  
-	  <span class="guidepost">Drain Two-Way Radios</span>
-	  <p>TMC personal may need to communicate with personnel that are out in the field via Two-Way Radio. In an effort to maintain the reliability of the Two-Way Radios we must regularly drain the batteries and test their functioning. The operator is to active all radios and let them run until they are completely drained. Once that has been completed they must be recharged. Please report any issues to the supervisor.</p>
+	  </div>
 	  
-    </div>
-  </div>
-</div>
+<!-- Radio Maintenance Details -->	
+	  <div class="card">
+	  <span class="guidepost">Drain Two-Way Radios</span>
+	  <p>TMC personal may need to communicate with personnel that are out in the field via Two-Way Radio. In an effort to maintain the reliability of the Two-Way Radios we must regularly drain the batteries and test their functioning.
+	  
+	  <h4>1. Activate all radios and let them run until they are completely drained</h4>
+	  <h4>2. Recharge drained radios</h4>
+	  <h4>3. Report any issues to the supervisor</h4>
+	  </div>	  
+ </div>
   
+<!-- Contains all elements of the right dashboard column -->
+  <div class="rightcolumn">
+  <div class="card">
+	<img src="../images/misc/maintreminder.png" class="image3">
+	<p><span class="guidepost">Operator scheduled for this month:</span>
+	<h3>Operator 31</h3>
+	<span class="guidepost">Operator Scheduled for next month:</span>
+	<h3>Operator 20</h3></p>
+	</div>
+	
+    <div class="card">
+	  <!-- Insert maintenance summaries here -->
+	  <span class="guidepost">Monthly Maintenance includes the following:</span>
+	  <h5>1. Running back up AC for a total of 8 hours.</h5>
+	  <h5>2. Drain TMC Radios</h5>
+	  <h5>3. Vacuum the day of maintenance and as needed for a month.</h5>
+	  <h5>4. Wipe down all surfaces including: Monitors, desks, etc.</h5>
+	  <h5>5. Check the pan/tilt/zoom functions on all the cameras.</h5>
+	  <h5>6. Assist Pete with testing phone lines.</h5>
+    </div> 
+	 
+</div>
+</div>
 
 </body>
 
